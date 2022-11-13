@@ -1,4 +1,99 @@
+
+f1
+{
+    font-size: 30px;
+}
+f2
+{
+    font-size: 20px;
+}
+
+hr
+{
+    border-bottom: solid 2px gray;
+}
+
+img
+{
+    max-width:80%;
+}
+
+.b2
+{
+    color:black;
+    text-decoration: none;
+    border-left: solid 4px gray;
+}
+
+.b2
+{
+    animation-name:opacitys;
+    animation-duration: 1.4s;
+    opacity:0;
+    animation-fill-mode: both; 
+}
+
+@keyframes opacitys
+{
+    0%{
+        opacity:0;
+        
+    }
+    100%{
+        opacity:1;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:481px) 
+{
+
 body
 {
-    text-align: center;
+    margin:5px 30px;
+    padding:5px;
+    
+}
+
+/*li
+{
+    list-style-type: square;
+}
+*/
+
+.surround
+{
+    display:flex;
+}
+
+.headline
+{
+    flex:3;
+}
+.log
+{
+    border-left: solid 2px gray;
+    margin-left:30px;
+    padding-left:20px;
+    padding-top:50px;
+    flex:1;
+}
+
+
+
+}
+
+@media screen and(max-width:480px) {
+    body
+    {
+        padding:5px;
+    }
+
+    .log
+    {
+        border-top:solid 2px gray;
+    }
 }
