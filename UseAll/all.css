@@ -1,6 +1,11 @@
+body
+{
+    font-family:"normal";
+}
 
 f1
 {
+    font-family:"melete";
     font-size: 30px;
 }
 f2
@@ -32,6 +37,18 @@ img
     opacity:0;
     animation-fill-mode: both; 
 }
+
+@font-face
+{
+    font-family:"melete";
+    src: url(Melete-Regular.otf);
+}
+@font-face
+{
+    font-family:"normal";
+    src: url(UDDigiKyokashoN-R.ttc);
+}
+
 
 @keyframes opacitys
 {
