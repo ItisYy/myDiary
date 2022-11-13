@@ -12,10 +12,20 @@ f2
 {
     font-size: 20px;
 }
+f3
+{
+    font-family:"melete";
+}
 
 hr
 {
+    animation-name: fadeinRight;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    opacity:0;
+    animation-fill-mode: both; 
     border-bottom: solid 2px gray;
+    
 }
 
 img
@@ -36,6 +46,14 @@ img
     animation-duration: 1.4s;
     opacity:0;
     animation-fill-mode: both; 
+}
+
+.headline
+{
+    animation-name: fadeinUp;
+    
+    animation-duration: 3s;
+    
 }
 
 @font-face
@@ -61,7 +79,34 @@ img
     }
 
 }
-
+@keyframes fadeinRight
+{
+    0%{
+        
+        transform: translateX(40px);
+    }
+    40%{
+        transform:translateX(0px);
+    }
+    100%{
+        opacity:1;
+        
+    }
+}
+@keyframes fadeinUp
+{
+    0%{
+        transform:translateY(-20px);
+        opacity:0;
+    }
+    40%{
+        opacity:1;
+    }
+    100%{
+        transform:translateY(0px);
+        
+    }
+}
 
 
 
