@@ -21,7 +21,7 @@ hr
 {
     animation-name: fadeinRight;
     animation-delay: 1s;
-    animation-duration: 4s;
+    animation-duration: 3s;
     opacity:0;
     animation-fill-mode: both; 
     border-bottom: solid 2px gray;
@@ -52,9 +52,20 @@ img
 {
     animation-name: fadeinUp;
     
-    animation-duration: 3s;
+    animation-duration: 2s;
     
 }
+
+footer
+{
+    animation-name:fadeinRight;
+    animation-delay: 1s;
+    animation-duration: 1.4s;
+    opacity:0;
+    animation-fill-mode: both; 
+}
+
+
 
 @font-face
 {
