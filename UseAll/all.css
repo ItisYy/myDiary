@@ -30,7 +30,7 @@ hr
 
 img
 {
-    max-width:60%;
+    max-width:80%;
 }
 
 
@@ -141,6 +141,11 @@ body
 }
 */
 
+img
+    {
+        max-width:60%;
+    }
+
 .surround
 {
     display:flex;
@@ -159,7 +164,19 @@ body
     flex:1;
 }
 
-
+.hovImg
+{
+    align-items:center;
+    margin-left:25px;
+    transition-duration: 0.2s;
+    transform:scale(1,1) ;
+}
+.hovImg:hover
+    {
+        transition-duration: 0.2s ;
+        
+        transform: scale(1.1,1.1);
+    }
 
 }
 
@@ -168,6 +185,7 @@ body
     {
         padding:5px;
     }
+
 
     .log
     {
