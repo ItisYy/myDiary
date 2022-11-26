@@ -19,12 +19,12 @@ f3
 
 hr
 {
-    animation-name: fadeinRight;
+    animation-name: opacitys;
     animation-delay: 1s;
     animation-duration: 3s;
     opacity:0;
     animation-fill-mode: both; 
-    border-bottom: solid 2px gray;
+    border-bottom: solid 3px gray;
     
 }
 
@@ -59,7 +59,7 @@ img
 
 footer
 {
-    animation-name:fadeinRight;
+    animation-name:opacitys;
     animation-delay: 1s;
     animation-duration: 1.4s;
     opacity:0;
@@ -95,7 +95,7 @@ footer
 {
     0%{
         
-        transform: translateX(40px);
+        transform: translateX(50px);
     }
     40%{
         transform:translateX(0px);
@@ -132,8 +132,20 @@ body
 {
     margin:5px 30px;
     padding:5px;
-    
+    font-size: 18px;
+
 }
+
+f1
+{
+    font-family:"melete";
+    font-size: 35px;
+}
+f2
+{
+    font-size: 25px;
+}
+
 
 /*li
 {
