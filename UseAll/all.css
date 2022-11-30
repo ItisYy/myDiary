@@ -44,7 +44,8 @@ img
 .b2
 {
     animation-name:opacitys;
-    animation-duration: 1.4s;
+    animation-duration: 2s;
+    animation-delay:0.5s;
     opacity:0;
     animation-fill-mode: both; 
 }
@@ -125,9 +126,6 @@ footer
 @media screen and (min-width:481px) 
 {
 
-
-
-
 body
 {
     margin:5px 30px;
@@ -190,7 +188,22 @@ img
         transform: scale(1.1,1.1);
     }
 
+
+    .flx
+    {
+        width:70%;
+        display:flex;
+        
+    }
+.flx1
+{
+    
+    flex:1;
 }
+}
+
+
+
 
 @media screen and(max-width:480px) {
     body
@@ -203,4 +216,12 @@ img
     {
         border-top:solid 2px gray;
     }
+}
+
+
+/*ここから各fileで仕様しているclass指定*/
+
+.name
+{
+    text-align: center;
 }
