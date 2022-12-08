@@ -1,0 +1,26 @@
+@media screen and (min-width:481px) 
+{
+    img
+    {
+        transition-duration: 0.2s;
+        transform: translateX(0px);
+    }
+    img:hover
+    {
+        transform: translateX(20px);
+    }
+
+
+}
+
+.bord
+{
+    border-bottom: solid 3px white;
+    transition-duration: 0.2s;
+}
+.bord:hover
+{
+    border-color:gray;
+    border-bottom: solid 3px gray;
+    
+}
