@@ -1,0 +1,52 @@
+@font-face
+{
+    font-family:"melete";
+    src:url(../UseAll/Melete-Regular.otf);
+}
+
+body
+{
+    
+    background:black;
+}
+header,footer
+{
+    text-align: center;
+    color:white;
+}
+
+f1
+{
+    font-family:"Melete";
+    
+    font-size:40px;
+}
+f2
+{
+    font-size: 20px;;
+}
+
+hr
+{
+    border-bottom: solid 3px lightblue;
+}
+
+.surround
+{
+    
+    display: flex;
+}
+.log
+{
+    flex:1;
+    padding:3px 20px;
+    margin-right:5px;
+    background:white;
+    border-right: solid 3px lightblue;
+}
+.headline
+{
+    padding:3px 20px;
+    background:white;
+    flex:3;
+}
